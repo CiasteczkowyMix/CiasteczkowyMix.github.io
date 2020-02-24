@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Diet Web</title>
+<meta charset='utf8'>
+<link rel='icon' href='C:\stronka\favic.ico'>
+<style>
+body {
+background-image: linear-gradient(white, aqua, #00bfff, blue);
+}
+img {
+ position: sticky;
+ width: 300px;
+ height: 300px;
+ opacity: 1;
+ z-index: 1;
+ border: solid black 3px;
+margin:20px;
+opacity: 0.8;
+
+}
+.show23 {
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+}
+.show67{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:340px;
+}
+.show1011{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:680px;
+}
+.show1415{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:1020px;
+}
+.show1819{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:1360px;
+}
+.show2223{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:1700px;
+}
+.show2627{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:2040px;
+}
+.show3031{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left:175px;
+top:2380px;
+}
+.trd {
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+}
+.xf {
+display: none;
+}
+.trd12{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:680px;
+}
+.trd8{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:340px;
+}
+.trd16{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:1020px;
+}
+.trd20{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:1360px;
+}
+.trd24{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:1700px;
+}
+.trd28{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:2040px;
+}
+.trd32{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+left: 350px;
+top:2380px;
+}
+.trl1{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+}
+.trl5{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:340px;
+}
+.trl9{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:680px;
+}
+.trl13{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:1020px;
+}
+.trl17{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:1360px;
+}
+.trl21{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:1700px;
+}
+.trl25{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:2040px;
+}
+.trl29{
+position:absolute;
+width:1000px;
+height:1000px;
+opacity: 0.4;
+top:2380px;
+}
+.sp{
+display:none;
+}
+.sp1{
+position:absolute;
+z-index: 1;
+top:360px;
+left:380px;
+font-size: 50px;
+display: inline;
+
+}
+.but{
+position:absolute;
+right:20px;
+top:30px;
+height:40px;
+width: 120px;
+}
+.butq{
+position:absolute;
+right:20px;
+top:80px;
+height:40px;
+width: 120px;
+}
+.tab1{
+border: solid 1px black;
+}
+</style>
+</head>
+<body >
+<button id='but' class='but' onclick='spp1()'>Składniki</button>
+<button id='but' class='butq' onclick='spp2()'>Wartości odżywcze</button>
+<span id='sp1' class='sp'>
+
+<ul>
+<li>woda</li>
+<li>cukier</li>
+<li>Dwutlenek węgla (e 290)</li>
+<li>Karmel amoniakalno-siarczynowy (e 150d)</li>
+<li>Kwas fosforowy (e 338)</li>
+<li>naturalne aromaty w tym kofeina</li> 
+</ul>
+</span>
+<span id='sp2' class="sp"> </span>
+<span id='sp3' class="sp"> </span>
+<span id='sp4' class="sp"> </span>
+<span id='sp5' class="sp"> </span>
+<span id='sp6' class="sp"> </span>
+<span id='sp7' class="sp"> </span>
+<span id='sp8' class="sp"> </span>
+<span id='sp9' class="sp"> </span>
+<span id='sp10' class="sp"> </span>
+<span id='sp11' class="sp"> </span>
+<span id='sp12' class="sp"> </span>
+<span id='sp13' class="sp"> </span>
+<span id='sp14' class="sp"> </span>
+<span id='sp15' class="sp"> </span>
+<span id='sp16' class="sp"> </span>
+<span id='sp17' class="sp"> </span>
+<span id='sp18' class='sp'> </span>
+<span id='sp19' class='sp'> </span>
+<span id='sp20' class='sp'> </span>
+<span id='sp21'class="sp"> </span>
+<span id='sp22'class="sp"> </span>
+<span id='sp23'class="sp"> </span>
+<span id='sp24'class="sp"> </span>
+<span id='sp25'class="sp"> </span>
+<span id='sp26'class="sp"> </span>
+<span id='sp27'class="sp"> </span>
+<span id='sp28'class="sp"> </span>
+<span id='sp29'class="sp"> </span>
+<span id='sp30'class="sp"> </span>
+<span id='sp31'class="sp"> </span>
+<span id='sp32'class="sp"> </span>
+
+
+<img id='1' class='image' src='C:\stronka\fanta.jpg' alt='fanta' >
+
+<img id='2' class='image'src='C:\stronka\sprite.jpg' alt='sprite' >
+
+<img id='3' class='image'src='C:\stronka\cherry2.jpg' alt='cherry'>
+
+<img id='4' class='image' src='C:\stronka\zero2.jpg' alt='zero'>
+
+<img id='5' class='image' src='C:\stronka\light.jpg' alt='light'>
+
+<img id='6' class='image' src='C:\stronka\lime.jpg' alt='lime'>
+
+<img id='7' class='image' src='C:\stronka\kinley2.jpg' alt='kinley'>
+
+<img id='8' class='image' src='C:\stronka\coke2.jpg' alt='coca-cola'>
+
+<img id='9' class='image' src='C:\stronka\monster.jpg' alt='monster energy'>
+
+<img id='10' class='image' src='C:\stronka\fuze.jpg' alt='fuzetea'>
+
+<img id='11' class='image' src='C:\stronka\burn.jpg' alt='burn'>
+
+<img id='12' class='image' src='C:\stronka\powerade.jpg' alt='powerade'>
+
+<img id='13' class='image' src='C:\stronka\cappy.jpg' alt='cappy'>
+
+<img id='14' class='image' src='C:\stronka\mvita.jpg' alt='mineral vita'>
+
+<img id='15' class='image' src='C:\stronka\kropla.jpg' alt='kropla beskidu'>
+
+<img id='16' class='image' src='C:\stronka\krystal.jpg' alt='krystaliczne źródło'>
+
+<img id='17' class='image' src='C:\stronka\gatorade.jpg' alt='gatorade'>
+
+<img id='18' class='image' src='C:\stronka\rockstar.jpg' alt='rockstar'>
+
+<img id='19' class='image' src='C:\stronka\schweppes.jpg' alt='schweppes'>
+
+<img id='20' class='image' src='C:\stronka\lipton.jpg' alt='lipton tea'>
+
+<img id='21' class='image' src='C:\stronka\toma1.jpg' alt='toma'>
+
+<img id='22' class='image' src='C:\stronka\seven.jpg' alt='7up'>
+
+<img id='23' class='image' src='C:\stronka\mirinda.jpg' alt='mirinda'>
+
+<img id='24' class='image' src='C:\stronka\mountain.jpg' alt='adrenaline mountain dew'>
+
+<img id='25' class='image' src='C:\stronka\dew.jpg' alt='mountain dew'>
+
+<img id='26' class='image' src='C:\stronka\pepsi.jpg' alt='pepsi'>
+
+<img id='27' class='image' src='C:\stronka\pmax.jpg' alt='pepsi max'>
+
+<img id='28' class='image' src='C:\stronka\ginger.jpg' alt='pepsi ginger'>
+
+<img id='29' class='image' src='C:\stronka\light l.jpg' alt='pepsi light lime'>
+
+<img id='30' class='image' src='C:\stronka\plight.jpg' alt='pepsi light'>
+
+<img id='31' class='image' src='C:\stronka\[lime.jpg' alt='pepsi lime'>
+
+<img id='32' class='image' src='C:\stronka\twist.jpg' alt='pepsi twist'>
+
+<script>
+function spp1(){
+document.getElementById('sp1').innerHTML= "<ul><li>woda</li><li>cukier</li><li>Dwutlenek węgla (e 290)</li><li>Karmel amoniakalno-siarczynowy (e 150d)</li><li>Kwas fosforowy (e 338)</li><li>naturalne aromaty w tym kofeina</li> </ul>";
+
+}
+function spp2(){
+document.getElementById('sp1').innerHTML = "<table class='tab1'><tr><th>Wartość odżywcza</th><th>na 100ml</th></tr><tr><td>Wartość energetyczna</td><td>180 kJ</td</tr><tr><td>Wartość energetyczna</td><td>42 kcal</td></tr><tr><td>Tłuszcz</td><td>0g</td>  </tr><tr><td>W tym tłuszcza nasycone dddddddd</td><td>0g</td></tr><tr><td>Węglowodany</td><td>10,6g</td></tr><tr><td>-w tym cukry</td><td>10,6g</td></tr><tr><td>Białka</td><td>0g</td></tr><tr><td>Sól</td><td>0g</td></tr></table> "
+}
+//1
+var x = document.getElementById("1");
+x.addEventListener("mouseover", myFunction);
+
+x.addEventListener("mouseout", myThirdFunction);
+
+function myFunction() {
+  
+  document.getElementById("1").className = "trl1";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//2
+var x2 = document.getElementById("2");
+x2.addEventListener("mouseover", myFunction2);
+
+x2.addEventListener("mouseout", myThirdFunction2);
+
+function myFunction2() {
+  document.getElementById("2").className = "show23";
+  document.getElementById('1').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction2() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//3
+var x3 = document.getElementById("3");
+x3.addEventListener("mouseover", myFunction3);
+
+x3.addEventListener("mouseout", myThirdFunction3);
+
+function myFunction3() {
+  document.getElementById("3").className = "show23";
+  document.getElementById('2').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction3() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//4
+var x4 = document.getElementById("4");
+x4.addEventListener("mouseover", myFunction4);
+
+x4.addEventListener("mouseout", myThirdFunction4);
+
+function myFunction4() {
+  document.getElementById("4").className = "trd";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction4() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//5
+var x5 = document.getElementById("5");
+x5.addEventListener("mouseover", myFunction5);
+
+x5.addEventListener("mouseout", myThirdFunction5);
+
+function myFunction5() {
+  document.getElementById("5").className = "trl5";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('1').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction5() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//6
+var x6 = document.getElementById("6");
+x6.addEventListener("mouseover", myFunction6);
+
+x6.addEventListener("mouseout", myThirdFunction6);
+
+function myFunction6() {
+  document.getElementById("6").className = "show67";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('1').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction6() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//7
+var x7 = document.getElementById("7");
+x7.addEventListener("mouseover", myFunction7);
+
+x7.addEventListener("mouseout", myThirdFunction7);
+
+function myFunction7() {
+  document.getElementById("7").className = "show67";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction7() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//8
+var x8 = document.getElementById("8");
+x8.addEventListener("mouseover", myFunction8);
+
+x8.addEventListener("mouseout", myThirdFunction8);
+
+function myFunction8() {
+ document.getElementById("sp1").className = "sp1";
+  document.getElementById("8").className = "trd8";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction8() {
+ document.getElementById("sp1").className = "sp";
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//9
+var x9 = document.getElementById("9");
+x9.addEventListener("mouseover", myFunction9);
+
+x9.addEventListener("mouseout", myThirdFunction9);
+
+function myFunction9() {
+  document.getElementById("9").className = "trl9";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction9() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//10
+var x10 = document.getElementById("10");
+x10.addEventListener("mouseover", myFunction10);
+
+x10.addEventListener("mouseout", myThirdFunction10);
+
+function myFunction10() {
+  document.getElementById("10").className = "show1011";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction10() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//11
+var x11 = document.getElementById("11");
+x11.addEventListener("mouseover", myFunction11);
+
+x11.addEventListener("mouseout", myThirdFunction11);
+
+function myFunction11() {
+  document.getElementById("11").className = "show1011";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction11() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//12
+var x12 = document.getElementById("12");
+x12.addEventListener("mouseover", myFunction12);
+
+x12.addEventListener("mouseout", myThirdFunction12);
+
+function myFunction12() {
+  document.getElementById("12").className = "trd12";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction12() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//13
+var x13 = document.getElementById("13");
+x13.addEventListener("mouseover", myFunction13);
+
+x13.addEventListener("mouseout", myThirdFunction13);
+
+function myFunction13() {
+  document.getElementById("13").className = "trl13";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction13() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//14
+var x14 = document.getElementById("14");
+x14.addEventListener("mouseover", myFunction14);
+
+x14.addEventListener("mouseout", myThirdFunction14);
+
+function myFunction14() {
+  document.getElementById("14").className = "show1415";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction14() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//15
+var x15 = document.getElementById("15");
+x15.addEventListener("mouseover", myFunction15);
+
+x15.addEventListener("mouseout", myThirdFunction15);
+
+function myFunction15() {
+  document.getElementById("15").className = "show1415";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction15() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//16
+var x16 = document.getElementById("16");
+x16.addEventListener("mouseover", myFunction16);
+
+x16.addEventListener("mouseout", myThirdFunction16);
+
+function myFunction16() {
+  document.getElementById("16").className = "trd16";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction16() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//17
+var x17 = document.getElementById("17");
+x17.addEventListener("mouseover", myFunction17);
+
+x17.addEventListener("mouseout", myThirdFunction17);
+
+function myFunction17() {
+  document.getElementById("17").className = "trl17";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction17() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//18
+var x18 = document.getElementById("18");
+x18.addEventListener("mouseover", myFunction18);
+
+x18.addEventListener("mouseout", myThirdFunction18);
+
+function myFunction18() {
+  document.getElementById("18").className = "show1819";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction18() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//19
+var x19 = document.getElementById("19");
+x19.addEventListener("mouseover", myFunction19);
+
+x19.addEventListener("mouseout", myThirdFunction19);
+
+function myFunction19() {
+  document.getElementById("19").className = "show1819";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction19() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//20
+var x20 = document.getElementById("20");
+x20.addEventListener("mouseover", myFunction20);
+
+x20.addEventListener("mouseout", myThirdFunction20);
+
+function myFunction20() {
+  document.getElementById("20").className = "trd20";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction20() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//21
+var x21 = document.getElementById("21");
+x21.addEventListener("mouseover", myFunction21);
+
+x21.addEventListener("mouseout", myThirdFunction21);
+
+function myFunction21() {
+  document.getElementById("21").className = "trl21";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction21() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//22
+var x22 = document.getElementById("22");
+x22.addEventListener("mouseover", myFunction22);
+
+x22.addEventListener("mouseout", myThirdFunction22);
+
+function myFunction22() {
+  document.getElementById("22").className = "show2223";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction22() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//23
+var x23 = document.getElementById("23");
+x23.addEventListener("mouseover", myFunction23);
+
+x23.addEventListener("mouseout", myThirdFunction23);
+
+function myFunction23() {
+  document.getElementById("23").className = "show2223";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction23() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//24
+var x24 = document.getElementById("24");
+x24.addEventListener("mouseover", myFunction24);
+
+x24.addEventListener("mouseout", myThirdFunction24);
+
+function myFunction24() {
+  document.getElementById("24").className = "trd24";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction24() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//25
+var x25 = document.getElementById("25");
+x25.addEventListener("mouseover", myFunction25);
+
+x25.addEventListener("mouseout", myThirdFunction25);
+
+function myFunction25() {
+  document.getElementById("25").className = "trl25";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction25() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//26
+var x26 = document.getElementById("26");
+x26.addEventListener("mouseover", myFunction26);
+
+x26.addEventListener("mouseout", myThirdFunction26);
+
+function myFunction26() {
+  document.getElementById("26").className = "show2627";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction26() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//27
+var x27 = document.getElementById("27");
+x27.addEventListener("mouseover", myFunction27);
+
+x27.addEventListener("mouseout", myThirdFunction27);
+
+function myFunction27() {
+  document.getElementById("27").className = "show2627";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction27() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//28
+var x28 = document.getElementById("28");
+x28.addEventListener("mouseover", myFunction28);
+
+x28.addEventListener("mouseout", myThirdFunction28);
+
+function myFunction28() {
+  document.getElementById("28").className = "trd28";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('1').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction28() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//29
+var x29 = document.getElementById("29");
+x29.addEventListener("mouseover", myFunction29);
+
+x29.addEventListener("mouseout", myThirdFunction29);
+
+function myFunction29() {
+  document.getElementById("29").className = "trl29";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('1').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction29() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//30
+var x30 = document.getElementById("30");
+x30.addEventListener("mouseover", myFunction30);
+
+x30.addEventListener("mouseout", myThirdFunction30);
+
+function myFunction30() {
+  document.getElementById("30").className = "show3031";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('1').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction30() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//31
+var x31 = document.getElementById("31");
+x31.addEventListener("mouseover", myFunction31);
+
+x31.addEventListener("mouseout", myThirdFunction31);
+
+function myFunction31() {
+  document.getElementById("31").className = "show3031";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('1').className = "xf";
+  document.getElementById('32').className = 'xf';
+  
+}
+function myThirdFunction31() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+//32
+var x32 = document.getElementById("32");
+x32.addEventListener("mouseover", myFunction32);
+
+x32.addEventListener("mouseout", myThirdFunction32);
+
+function myFunction32() {
+  document.getElementById("32").className = "trd32";
+  document.getElementById('2').className = "xf";
+  document.getElementById('3').className = "xf";
+  document.getElementById('4').className = 'xf';
+  document.getElementById('5').className = 'xf';
+  document.getElementById('6').className = "xf";
+  document.getElementById('7').className = "xf";
+  document.getElementById('8').className = 'xf';
+  document.getElementById('9').className = 'xf';
+    document.getElementById('10').className = "xf";
+  document.getElementById('11').className = "xf";
+  document.getElementById('12').className = 'xf';
+  document.getElementById('13').className = 'xf';
+    document.getElementById('14').className = "xf";
+  document.getElementById('15').className = "xf";
+  document.getElementById('16').className = 'xf';
+  document.getElementById('17').className = 'xf';
+    document.getElementById('18').className = "xf";
+  document.getElementById('19').className = "xf";
+  document.getElementById('20').className = 'xf';
+  document.getElementById('21').className = 'xf';
+    document.getElementById('22').className = "xf";
+  document.getElementById('23').className = "xf";
+  document.getElementById('24').className = 'xf';
+  document.getElementById('25').className = 'xf';
+    document.getElementById('26').className = "xf";
+  document.getElementById('27').className = "xf";
+  document.getElementById('28').className = 'xf';
+  document.getElementById('29').className = 'xf';
+    document.getElementById('30').className = "xf";
+  document.getElementById('31').className = "xf";
+  document.getElementById('1').className = 'xf';
+  
+}
+function myThirdFunction32() {
+  document.getElementById("1").className = "image";
+  document.getElementById('2').className = "image";
+    document.getElementById('3').className = "image";
+	document.getElementById('4').className = "image";
+	document.getElementById('5').className = "image";
+  document.getElementById('6').className = "image";
+    document.getElementById('7').className = "image";
+	document.getElementById('8').className = "image";
+	document.getElementById('9').className = "image";
+	  document.getElementById('10').className = "image";
+    document.getElementById('11').className = "image";
+	document.getElementById('12').className = "image";
+	document.getElementById('13').className = "image";
+	  document.getElementById('14').className = "image";
+    document.getElementById('15').className = "image";
+	document.getElementById('16').className = "image";
+	document.getElementById('17').className = "image";
+	  document.getElementById('18').className = "image";
+    document.getElementById('19').className = "image";
+	document.getElementById('20').className = "image";
+	document.getElementById('21').className = "image";
+	  document.getElementById('22').className = "image";
+    document.getElementById('23').className = "image";
+	document.getElementById('24').className = "image";
+	document.getElementById('25').className = "image";
+	  document.getElementById('26').className = "image";
+    document.getElementById('27').className = "image";
+	document.getElementById('28').className = "image";
+	document.getElementById('29').className = "image";
+	  document.getElementById('30').className = "image";
+    document.getElementById('31').className = "image";
+	document.getElementById('32').className = "image";
+}
+
+</script>
+
+<!--
+
+    _
+ _|o|<
+___|
+L L
+-->
+</body>
+</html>
