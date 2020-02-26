@@ -150,10 +150,11 @@ left: 350px;
 top:2380px;
 }
 .trl1{
-position:absolute;
+position:fixed;
 width:1000px;
 height:1000px;
 opacity: 0.4;
+left:50%;
 }
 .trl5{
 position:absolute;
@@ -233,7 +234,7 @@ width: 120px;
 .tab1{
 border: solid 1px black;
 }
-}
+
 </style>
 </head>
 <body >
@@ -359,7 +360,7 @@ function spp2(){
 document.getElementById('sp1').innerHTML = "<table class='tab1'><tr><th>Wartość odżywcza</th><th>na 100ml</th></tr><tr><td>Wartość energetyczna</td><td>180 kJ</td</tr><tr><td>Wartość energetyczna</td><td>42 kcal</td></tr><tr><td>Tłuszcz</td><td>0g</td>  </tr><tr><td>W tym tłuszcza nasycone</td><td>0g</td></tr><tr><td>Węglowodany</td><td>10,6g</td></tr><tr><td>-w tym cukry</td><td>10,6g</td></tr><tr><td>Białka</td><td>0g</td></tr><tr><td>Sól</td><td>0g</td></tr></table> "
 }
 //1
-var x = document.getElementById("1");
+ var x = document.getElementById("1");
 x.addEventListener("click", myFunction);
 
 x.addEventListener("mouseout", myThirdFunction);
